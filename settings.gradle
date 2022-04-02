@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Shranjevanje Hribi net izletov"
+rootProject.name = "Shrani hribi.net poti"
 include ':app'
