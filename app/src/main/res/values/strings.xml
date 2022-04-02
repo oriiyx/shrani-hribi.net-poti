@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shranjevanje Hribi net izletov</string>
+    <string name="add_entry_button_hint">hribi.net url izleta</string>
+    <string name="add_entry_button_text">Dodaj nov izlet</string>
+    <string name="add_entry_button_text_loading">Nalagam izlet</string>
+    <string name="delete_entry">Izbriši izlet</string>
+</resources>
