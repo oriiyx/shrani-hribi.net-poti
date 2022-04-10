@@ -57,8 +57,12 @@ public class EntryScraper {
 
                     Elements imageURLs = document.select(".main > div.main2 > div:nth-child(10) a");
 
+                    // Data on the webpage is random and hard to pinpoint
                     if (imageURLs.size() == 0) {
                         imageURLs = document.select(".main > div.main2 > div:nth-child(11) a");
+                    }
+                    if (imageURLs.size() == 0) {
+                        imageURLs = document.select(".main > div.main2 > div:nth-child(8) a");
                     }
 
                     AddData(entryName, startLocationName, endLocationName, time, difficulty, altitudeDifferance, roadAltitudeDifferance, staringPointDirections, routeDirections, imageURLs);
